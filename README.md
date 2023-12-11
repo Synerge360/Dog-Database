@@ -11,26 +11,12 @@
  > * What will be the input/output of your project? What are the features that the project provides?
  > * **We will allow the user to input a new dog object and remove existing dogs as they are being adopted/bought. We plan on making a GUI in Visual Studios so the user could easily access methods.**
  > * This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
- > 
- > You also need to set up an empty project board by choosing the  “Automated kanban with review” option on Github. You should also have a Backlog and In testing columns added.
- > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to:
- > * Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Create smaller actionable development tasks as issues and assign them to team members. Place these in the `TODO` column.
- >   * These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
- > * Schedule two check-ins using Calendly. You need to pick both time slots during your lab on week 8. Your entire team must be present for both check-ins.
- >   * The first check-in needs to be scheduled with your lab TA. During that meeting, you will discuss your project design/class diagram from phase II.
- >   * The second check-in should be scheduled with a reader. During that meeting you will discuss:
- >     * The tasks you are planning for the first sprint
- >     * How work will be divided between the team members
 
 ## Class Diagram
  > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
  > * https://lucid.app/publicSegments/view/8d61ee63-dc74-4de9-9850-db7bf4388a9b/image.png
  > * In our diagram, we have the UI class which is the main class where the user will interact with the program. Below the UI class would be the Dog class, where Dog objects will be made for each dog and be stored into a list. Below that we have the leaves such as addDog, removeDog, and showDog which are part of the Dog class. 
  
- > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with a reader (using Calendly). Your entire team must be present. This meeting will occur on week 8 but NOT during lab time.
  > * Before the meeting you should perform a sprint plan like you did in Phase II.
  > * You should also update this README file by adding the following:
